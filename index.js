@@ -11,6 +11,7 @@ if (hora >= 6 && hora <= 12){
 
 }else if (hora > 12 && hora <= 18){
     foto.src = 'imagens/tarde.jpg'
+    document.body.style.background = '#81155221'
     msg.innerHTML = `Boa tarde ${hora}:${min}`
 }else{
     foto.src = 'imagens/noite.jpg'
