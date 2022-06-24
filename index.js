@@ -1,7 +1,7 @@
 function carregar(){
 let msg = document.getElementById('msg')
 let foto = document.getElementById('foto')
-let data = new Date
+let data = new Date()
 let hora = data.getHours()
 let min = data.getMinutes()
 
